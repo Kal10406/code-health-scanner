@@ -23,7 +23,10 @@
   "author": "Kalpana",
   "license": "MIT",
   "dependencies": {
-    "web-features": "^1.0.0"
+    "acorn": "^8.15.0",
+    "acorn-walk": "^8.3.4",
+    "chalk": "^5.6.2",
+    "web-features": "^1.4.0"
   },
   "repository": {
     "type": "git",
