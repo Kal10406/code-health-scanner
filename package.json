@@ -8,7 +8,7 @@
     "baseline-check": "./check.js"
   },
   "scripts": {
-    "start": "node check.js",
+    "start": "node server.js",
     "scan": "node check.js",
     "demo": "node check.js demo.html",
     "prepare-demo": "node check.js demo.html > demo-output.txt"
@@ -26,11 +26,17 @@
     "acorn": "^8.15.0",
     "acorn-walk": "^8.3.4",
     "chalk": "^5.6.2",
+    "cors": "^2.8.5",
+    "express": "^5.1.0",
+    "multer": "^2.0.2",
     "web-features": "^1.4.0"
   },
   "repository": {
     "type": "git",
     "url": "https://github.com/Kal10406/baseline-cli.git"
   },
-  "homepage": "https://github.com/Kal10406/baseline-cli"
+  "homepage": "https://github.com/Kal10406/baseline-cli",
+  "engines": {
+    "node": ">=18.0.0"
+  }
 }
